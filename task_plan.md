@@ -55,27 +55,26 @@
 
 ---
 
-## ✨ Phase 4: S — Stylize (UI Build)
+## 🎨 Phase 4: S — Stylize (UI Build)
 
 ### Public Pages
-- [ ] Homepage (`app/(public)/page.tsx`)
-- [ ] Catalog (`app/(public)/catalog/page.tsx`)
-- [ ] Product detail (`app/(public)/products/[slug]/page.tsx`)
-- [ ] Cart (`app/(public)/cart/page.tsx`)
-- [ ] Checkout (`app/(public)/checkout/page.tsx`)
-- [ ] Order tracking (`app/(public)/order/[id]/page.tsx`)
+- [x] Global Layout & `components/Header.tsx`
+- [x] Homepage (`app/page.tsx`) (Hero + Featured)
+- [x] Catalog Page (`app/catalog/page.tsx`)
+- [x] Product Page (`app/products/[slug]/page.tsx`)
+- [x] Cart Page (`app/cart/page.tsx`)
+- [x] Checkout Page (`app/checkout/page.tsx`)
 
-### Admin Panel
-- [ ] Admin layout + auth guard (`app/admin/layout.tsx`)
-- [ ] Dashboard (`app/admin/page.tsx`)
-- [ ] Orders CRM (`app/admin/orders/page.tsx`)
-- [ ] Product management (`app/admin/products/page.tsx`)
+### Admin Panel (`/admin`)
+- [x] Protect routes with Supabase Auth Middleware
+- [x] Dashboard (`app/admin/page.tsx`)
+- [x] Orders CRM (`app/admin/orders/page.tsx`)
+- [x] Products Manager (`app/admin/products/page.tsx`)
 
 ### Shared Components
 - [ ] Header, Footer
 - [ ] ProductCard
 - [ ] NovaPoshtaPicker (city + warehouse autocomplete)
-- [ ] CartDrawer
 
 ---
 
